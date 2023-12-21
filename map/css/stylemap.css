@@ -1,0 +1,16 @@
+body{
+    padding: 50px;
+}
+p{
+    padding: 15px;
+    width: 500px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: aquamarine;
+    font-size: 42px;
+    font-style: italic;
+    text-align: center;
+}
+.mapimg{
+    width: 1000px;
+}

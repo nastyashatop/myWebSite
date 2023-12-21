@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+body{
+	
+}
+.img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 200px;
+	width: 300px;
+	background-image: url(https://th.bing.com/th/id/R.2271b151179444220a5561fad50f539c?rik=3PL3oIWtCu5jCQ&pid=ImgRaw&r=0);
+	background-size: 200px;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.wrapper{
+	min-width: 100%;
+	overflow: hidden;
+}
+.container{
+	max-width: 1110px;
+	margin: 0 auto;
+}
+h1{
+	color: orange;
+	font-size: 48px;
+}
+.p1{
+	text-align: center;
+}
+.fonts {
+}
+.fonts__conaction {
+	margin: 0 auto;
+	background-color: aquamarine;
+}
+.font1 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.font2 {
+	font-family: sans-serif;
+}
+.font3 {
+	font-family: monospace;
+}
+.font4 {
+	font-family: 'Young Serif', serif;
+}
+.font5 {
+	font-style: italic;
+}
+.font6 {
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: pink;
+}
+.font7 {
+	text-transform: uppercase;
+}
+.font7:hover{
+	font-weight: 600;
+}
+.font {
+	margin-bottom: 25px;
+	font-size: 24px;
+}
+.font8 {
+	word-spacing: 65px;
+}
+.font9 {
+	text-decoration: line-through;
+	font-style: italic;
+	letter-spacing: 25px;
+}
+.font10 {
+	font-weight: 600;
+	text-decoration: underline;
+	text-decoration-style: double;
+	text-decoration-color: greenyellow;
+}
+.font{
+	font-size: 48px;
+}

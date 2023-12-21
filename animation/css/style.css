@@ -1,0 +1,24 @@
+.wrapper{
+	min-width: 100%;
+	overflow: hidden;
+}
+.container{
+	max-width: 1110px;
+	margin: 0 auto;
+}
+body{
+	background-color: mintcream;
+}
+p{
+	font-size: 50px;
+	color: green;
+	background-color: yellowgreen;
+	margin: 0 auto;
+}
+marquee{
+	color: blue;
+	font-size: 50px;
+}
+img{
+	max-width: 100px;
+}
